@@ -3,29 +3,58 @@
     <head>
         <meta charset="utf-8">
         <title>Halfdan's Portfolio</title>
-        <link rel="stylesheet" href="style.css"></link>
+        <link rel="stylesheet" href="style.css">
     </head>
 
-    <header class="header">
-        <h1>Welcome to my portfolio!</h1>
-        <nav>
-            <ul class="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#aboutMe">About</a></li>
-                <li><a href="#myCv">CV</a></li>
-                <li><a href="#Contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
     <body>
+
+        <header class="header" id="home">
+            <h1>Welcome to my portfolio!</h1>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#my-work-experience">Work Experience</a></li>
+                    <li><a href="#contact">Contact Info</a></li>
+                </ul>
+            </nav>
+        </header>
+
         <main>
+            <section id="about-me">
+                <div class="container">
+                    <h2 class="title">About Me</h2>
+                    <img class="selfie" src="../Resources/Images/Halfdan.jpg" alt="Picture of Me, Halfdan">
+                    <article class="about-me">
+                        <p>Text About me goes here</p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="my-work-experience">
+                <div class="container">
+                    <h2 class="title">Work Experience</h2>
+                    <article class="work-experience">
+                        <p>Text about my work experience goes here</p>
+                        <!--TODO: Make js script that can make the picture bigger if you press it-->
+                        <img class="cv" src="../Resources/Images/halfdan-cv.jpg" alt="picture of my cv">
+                        <br>
+                        <a href="../Resources/Downloadable CV.pdf" download>Click to download My CV</a>
+                    </article>
+
+                </div>
+            </section>
 
         </main>
 
     </body>
 
-    <footer>
-
+    <footer id="contact">
+        <ul class="contact-list">
+            <li><a href="mailto:halfdansc@gmail.com">halfdansc@gmail.com</a></li>
+            <li><a href="https://github.com/HelloHaruSystem/">Github</a></li>
+            <li><a>TLF: +45 93 90 32 99</a></li>
+        </ul>
     </footer>
+
 </html>

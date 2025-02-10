@@ -1,18 +1,19 @@
 .header {
-    background-color: forestgreen;
+    background-color: #04AA6D;
     color: white;
     text-align: center;
+    padding-top: 2px;
 }
 
-.menu {
+.nav-menu {
     list-style: none;
-    background: aqua;
+    background: blanchedalmond;
     overflow: hidden;
     margin: 0;
     padding: 0;
 }
 
-.menu a {
+.nav-menu a {
     float: left;
     color: black;
     text-align: center;
@@ -21,7 +22,69 @@
     font-size: 17px;
 }
 
-.menu a:hover {
+.nav-menu a:hover {
     background-color: #04AA6D;
     color: yellow;
 }
+
+main {
+
+}
+
+.container {
+
+}
+
+.title {
+    text-align: center;
+}
+
+.selfie {
+
+}
+
+.about-me {
+
+}
+
+.work-experience {
+
+}
+
+.cv {
+
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #04AA6D;
+    text-align: center;
+}
+
+.contact ul {
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#contact ul li {
+    list-style-type: none;
+}
+
+.contact li a {
+    float: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    ;
+}
+
+.contact li a:hover {
+    background-color: yellow;
+    color: blue;
+}
+
