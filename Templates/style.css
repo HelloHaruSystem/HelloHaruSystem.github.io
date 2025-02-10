@@ -36,9 +36,6 @@ a {
 
 .nav-menu li:hover {
     background-color: #04AA6D;
-}
-
-.nav-menu li:hover a {
     color: yellow;
 }
 
