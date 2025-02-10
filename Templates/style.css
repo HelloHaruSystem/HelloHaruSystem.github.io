@@ -1,0 +1,27 @@
+.header {
+    background-color: forestgreen;
+    color: white;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    background: aqua;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menu a:hover {
+    background-color: #04AA6D;
+    color: yellow;
+}
