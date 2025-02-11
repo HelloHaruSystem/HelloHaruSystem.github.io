@@ -1,11 +1,15 @@
 body {
-    background-color: #FFF;
+    background-color: lightcyan;
     margin: 0 auto;
     min-height: 100vh;
 }
 
+p {
+    color: #333333;
+}
+
 .header {
-    background-color: #04AA6D;
+    background-color: #FFFFFF;
     color: black;
     text-align: center;
     padding-top: 2px; /*body takes the full height of viewport*/
@@ -17,7 +21,7 @@ a {
 
 .nav-menu {
     list-style: none;
-    background: blanchedalmond;
+    background: #FFEBCD;
     overflow: hidden;
     margin: 30px auto;
     padding: 0 20px;
@@ -43,12 +47,15 @@ a {
 
 main {
     padding-bottom: 50px;
+    margin: 0px 50px;
 }
 
 
 .container {
     border: 3px solid black;
     border-radius: 15px;
+    background-color: #ffffff;
+    margin: 0px 50px;
 }
 
 .title {
@@ -66,18 +73,24 @@ main {
     text-align: left;
 }
 
+#non-natural-language {
+    text-align: center;
+}
+
 .work-experience {
-    width: 150px;
-    height: auto;
-    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
 .cv {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.projects {
     text-align: center;
 }
 
@@ -91,7 +104,8 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #04AA6D;
+    background-color: #FFEBCD;
+    border: 1px solid #466995;
     text-align: center;
 }
 
@@ -103,5 +117,5 @@ footer {
 }
 
 .contact-list li a:hover {
-    color: yellow;
+    color: blue;
 }
