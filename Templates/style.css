@@ -80,18 +80,18 @@ footer {
     text-align: center;
 }
 
-.contact ul {
+.contact-list {
+    list-style: none;
     overflow: hidden;
     margin: 0;
     padding: 0;
 }
 
-#contact ul li {
-    list-style-type: none;
+
+.contact-list li a:hover {
+    color: yellow;
 }
 
-.contact li a:hover {
-    background-color: yellow;
-    color: blue;
+#tlf:hover {
+    color: black,
 }
-
