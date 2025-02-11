@@ -67,14 +67,18 @@ main {
 }
 
 .work-experience {
-
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .cv {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
+    text-align: center;
 }
 
 #references p {
