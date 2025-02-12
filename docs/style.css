@@ -51,11 +51,10 @@ main {
 }
 
 .container {
-    border: 3px solid black;
+    border: 3px groove black;
     border-radius: 15px;
     background-color: #ffffff;
     margin: 0 15px 25px;
-
     padding: 0 5px;
     width: 50%;
 }
@@ -129,6 +128,7 @@ footer {
     color: blue;
 }
 
+/* Media query this code will run with a screen under 800px width */
 @media screen and (max-width: 800px) {
     body {
         background-color: tomato;
@@ -144,4 +144,5 @@ footer {
         padding: 0;
         align-items: center;
     }
+
 }
