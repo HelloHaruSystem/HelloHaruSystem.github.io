@@ -75,6 +75,10 @@ main {
     flex-direction: column;
 }
 
+#work-experience {
+    display: flex;
+}
+
 section {
     display: flex;
 }
@@ -96,6 +100,14 @@ img {
 .cv {
     padding: 0 0 10px 0;
     border-radius: 10px;
+}
+
+.outside-link {
+    color: blue;
+}
+
+.outside-link:hover {
+    color: yellowgreen;
 }
 
 .references {
