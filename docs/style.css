@@ -42,7 +42,6 @@ p {
 
     display: flex;
     justify-content: center;
-    border-radius: 20px;
     flex-wrap: wrap; /* makes elements wrap onto the next line*/
 }
 
