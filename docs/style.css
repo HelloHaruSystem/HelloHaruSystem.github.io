@@ -24,6 +24,11 @@ a {
     color: black;
 }
 
+.header a,
+.nav-menu a {
+    text-decoration: none;
+}
+
 .nav-menu {
     list-style: none;
     background: #FFEBCD;
@@ -136,7 +141,7 @@ footer {
     color: blue;
 }
 
-/* Media query this code will run with a screen under 800px width */
+/* media query this code will run with a screen under 800px width */
 @media screen and (max-width: 800px) {
     body {
         background-color: tomato;
