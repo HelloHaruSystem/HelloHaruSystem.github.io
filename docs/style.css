@@ -6,6 +6,7 @@ body {
 
 p {
     color: #333333;
+    font-family: "Funnel Sans", serif;
 }
 
 .header {
@@ -15,8 +16,12 @@ p {
     padding-top: 2px; /*body takes the full height of viewport*/
 }
 
+.header h1 {
+    font-family: "Audiowide", sans-serif;
+}
+
 a {
-    color: inherit;
+    color: black;
 }
 
 .nav-menu {
@@ -38,6 +43,7 @@ a {
     font-weight: 300;
     padding: 14px 16px;
     display: block;
+    font-family: "Limelight", sans-serif;
 }
 
 .nav-menu li:hover {
@@ -65,6 +71,7 @@ section {
 
 .title {
     text-align: center;
+    font-family: "Sour Gummy", serif;
 }
 
 .selfie {
@@ -91,6 +98,7 @@ section {
 .cv {
     width: 150px;
     height: auto;
+    padding: 0 0 10px 0;
     border-radius: 10px;
 }
 
