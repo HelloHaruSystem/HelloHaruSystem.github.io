@@ -99,12 +99,6 @@ section {
 img {
     width: 150px;
     height: auto;
-    background-color: #ffffff;
-}
-
-.selfie {
-    border: solid 1px #000000;
-    border-radius: 10px;
 }
 
 .cv {
