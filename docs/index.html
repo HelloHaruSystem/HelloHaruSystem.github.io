@@ -35,15 +35,20 @@
             <section>
                 <div class="container" id="about-me">
                     <h2 class="title">About Me</h2>
-                    <img class="selfie" src="Resources/Images/picture-halfdan.png" alt="Picture of Me, Halfdan" title="Picture of Me, Halfdan">
-                    <article class="about-me">
-                        <p>
-                            I am 29 years old and currently live in Frederiksberg, after having lived in Tokyo twice,
-                            where I studied Japanese and worked part-time.
-                            I completed the second part of the foundational course in Data and Communications on January 10, 2025,
-                            and I am now ready to begin my first apprenticeship in my dream field—software development.
-                            I am eager to apply my skills in a professional setting and continue growing as a programmer.
-                        </p>
+                    <article class="about-me parent">
+                        <div class="child-div">
+                            <img class="selfie" src="Resources/Images/picture-halfdan.png" alt="Picture of Me, Halfdan" title="Picture of Me, Halfdan">
+                        </div>
+
+                        <div class="child-div" id="right-side">
+                            <p>
+                                I am 29 years old and currently live in Frederiksberg, after having lived in Tokyo twice,
+                                where I studied Japanese and worked part-time.
+                                I completed the second part of the foundational course in Data and Communications on January 10, 2025,
+                                and I am now ready to begin my first apprenticeship in my dream field—software development.
+                                I am eager to apply my skills in a professional setting and continue growing as a programmer.
+                            </p>
+                        </div>
                     </article>
                 </div>
 
@@ -70,11 +75,12 @@
             <section>
                 <div class="container">
                     <h2 class="title">Work Experience</h2>
-                    <article class="work-experience" id="work-experience">
+                    <article class="work-experience parent" id="work-experience">
                         <div class="child-div">
                             <h3 class="title">CV</h3>
-                            <p>Here you will find my CV click the picture below to download my CV</p>
-                            <br>
+                            <p>Here you will find my CV<br>
+                                click the picture below to download my CV</p>
+
                             <a href="Resources/Downloadable/cv-halfdan.pdf" download>
                                 <img class="cv" src="Resources/Images/halfdan-cv.PNG" alt="picture of my cv" title="Halfdan's CV">
                             </a>

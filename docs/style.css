@@ -80,8 +80,12 @@ main {
     box-shadow: 10px 10px #663399;
 }
 
-#work-experience {
+.parent {
     display: flex;
+}
+
+.child-div {
+    width: 50%;
 }
 
 section {
