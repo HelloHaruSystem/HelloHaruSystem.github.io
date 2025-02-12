@@ -4,11 +4,6 @@ body {
     min-height: 100vh;
 }
 
-p {
-    color: #333333;
-    font-family: "Funnel Sans", serif;
-}
-
 .header {
     background-color: #FFFFFF;
     color: black;
@@ -22,6 +17,11 @@ p {
 
 a {
     color: black;
+}
+
+p {
+    color: #333333;
+    font-family: "Funnel Sans", serif;
 }
 
 .header a,
